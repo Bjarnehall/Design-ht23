@@ -1,0 +1,20 @@
+
+.header,
+.site-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.header {
+    background-color: $background-alternative-color;
+    border-bottom: 1em solid $border-color;
+    max-height: 170px;
+    padding-top: 1em;
+    max-width: 100%;
+}
+.title,
+.logo {
+    padding: 1em 2em 2em 0;
+    width: 360px;
+}

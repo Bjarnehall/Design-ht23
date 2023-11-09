@@ -23,20 +23,26 @@
     display: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1100px) {
     .header {
         flex-direction: column;
+        position: relative;
+        z-index: 10;
     }
 
     .nav ul {
         flex-direction: column;
         padding-bottom: 1em;
+        position: relative;
+        z-index: 20;
     }
 
     .nav ul li {
         display: flex;
         flex-direction: column;
         text-align: center;
+        z-index: 20;
+        background-color: $background-alternative-color-solid;
     }
 
     .nav ul li a {
