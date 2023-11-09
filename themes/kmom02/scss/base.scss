@@ -1,3 +1,142 @@
+:root {
+    --primary-text-color: rgb(27, 61, 54);
+    --primary-background-color: #e3cfcf91;
+    --primary-decoration-color: #333333a7;
+    --secondary-background-color: #baababa4;
+    --secondary-decoration-color: #82755ba1;
+}
+
+
 body {
     background-color: $background-color;
+    margin: 0 auto;
+    width: 1400px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    margin: 0 auto;
+    width: 1200px;
+    max-width: 95%;
+    padding: 2.4em;
+}
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/* Placement */
+
+
+
+.main {
+    flex: 1 0 auto;
+}
+
+.header,
+.footer {
+    flex: 0 0 auto;
+}
+
+/* Header */
+
+.header,
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Title */
+
+.title,
+.logo {
+    padding: 1em 2em 2em 0;
+    max-width: 520px;
+}
+
+@media (max-width: 767px) {
+    .title,
+    .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        display: none;
+        max-width: 170px;
+    }
+}
+
+.title * {
+    color: var(--primary-text-color);
+}
+
+.title p {
+    font-style: italic;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: 8px solid var(--primary-decoration-color);
+    background-color: var(--secondary-background-color);
+    height: 100px;
+    padding-top: 1em;
+}
+
+.footer a {
+    color: var(--primary-text-color);
+}
+
+.footer .social {
+    font-size: 2.4rem;
+}
+
+/* Typografy */
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5rem;
+    color: #444;
+}
+
+
+
+/* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
+
+/* Code */
+
+.nav a {
+    color: var(--primary-text-color);
+}
+
+.header {
+    background-color: var(--secondary-background-color);
+    border-bottom: 18px solid var(--secondary-decoration-color);
+    max-height: 170px;
+    padding-top: 1em;
 }
