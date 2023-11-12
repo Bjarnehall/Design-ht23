@@ -1,6 +1,6 @@
 ---
 Logo: image/catlogo2.png
-Tagline: My portfolio.
+Tagline: Jonas Bjarnehall
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/Bjarnehall/Design-ht23

@@ -3,9 +3,12 @@ Title: About
 Description: About page
 ---
 
-<br>
+#Om den här sidan
 
-#Skaparen
-
-Hej! nu ska jag brerätta lite kort om mig. Jonas heter jag bor sedan några år tillbaka med min sambo och våra djur i en stuga långt ut i skogen. Tack vare starlink satellit internet kan jag härifrån studera på BTH distans. Förutom att studera webbprogrammering så arbetar jag även som kyltekninker. När jag inte pluggar eller arbetar sitter jag gärna och spelar World of Warcraft eller så sitter jag och gör musik med min mpc. Detta är en hemsida som jag arbetar på i samband med utbildningen.
+Den här sidan är skapad med hjälp av ett ramverk som heter Pico i detta fall Pico 2.1.0. Pico är ett flat file CMS system vilket gör att vi inte behöver någon databas för att arbeta med vårt projekt. Det används en del paket som går se under themes/package.json filen här kan vi till exempel se att vi har sass, stylelint och normalize css. Det ligger även script i den här filen som gör att vi kan köra till exempel npm run style-min som skriver om vår scss till css.
 <br>
+<div class="img-about">
+    <img src="%assets_url%/img/pico.png" alt="Bild av Pico CMS">
+    <img src="%assets_url%/img/sass.png" alt="Bild av Sass">
+    <img src="%assets_url%/img/stylelint.png" alt="Bild av Stylelint">
+</div>

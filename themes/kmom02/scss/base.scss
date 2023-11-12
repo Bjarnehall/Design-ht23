@@ -20,7 +20,8 @@ body {
     max-width: 100%;
     padding-left: 10em;
     padding-right: 10em;
-    padding-top: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     flex: 1 0 auto;
 }
 
@@ -44,14 +45,6 @@ ul {
 .footer {
     flex: 0 0 auto;
 }
-
-/* Header */
-
-
-/* Title */
-
-
-/* Footer */
 
 
 .nav a {
