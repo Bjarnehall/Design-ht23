@@ -6431,7 +6431,7 @@ template {
 }
 
 p {
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-family: "Playfair Display", serif;
   width: 64rem;
   max-width: 100%;
@@ -6439,6 +6439,7 @@ p {
   line-height: 1.4;
   color: #333;
   letter-spacing: 1.3px;
+  font-weight: 600;
 }
 
 h1,
@@ -6458,7 +6459,7 @@ dd {
   text-align: justify;
   overflow-wrap: break-word;
   word-wrap: break-word;
-  color: var(--primary-text-color);
+  color: #000;
 }
 
 h1,
@@ -6469,7 +6470,11 @@ h5,
 h6 {
   margin-bottom: 0.6em;
   font-weight: bold;
-  color: var(--primary-text-color);
+  color: #000;
+}
+
+.title a {
+  text-decoration: none;
 }
 
 html,
@@ -6478,7 +6483,7 @@ body {
 }
 
 body {
-  background-color: rgba(193, 193, 193, 0.569);
+  background-color: rgba(232, 211, 170, 0.645);
   margin: 0 auto;
   width: 1400px;
   max-width: 100%;
@@ -6493,7 +6498,8 @@ body {
   max-width: 100%;
   padding-left: 10em;
   padding-right: 10em;
-  padding-top: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   flex: 1 0 auto;
 }
 
@@ -6518,9 +6524,6 @@ ul {
   flex: 0 0 auto;
 }
 
-/* Header */
-/* Title */
-/* Footer */
 .nav a {
   color: #000;
   font-size: 1.7rem;
@@ -6569,6 +6572,16 @@ img {
   border-radius: 50%;
 }
 
+.img-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.img-about img {
+  border-radius: 10%;
+}
+
 @media (max-width: 1100px) {
   .title {
     padding: 1em;
@@ -6595,8 +6608,8 @@ img {
 }
 
 .header {
-  background-color: rgba(186, 171, 171, 0.6431372549);
-  border-bottom: 1em solid rgba(130, 117, 91, 0.631372549);
+  background-color: rgba(212, 188, 141, 0.645);
+  border-bottom: 1em solid rgba(161, 142, 105, 0.631372549);
   max-height: 170px;
   padding-top: 1em;
   max-width: 100%;
@@ -6609,8 +6622,8 @@ img {
 }
 
 .footer {
-  background-color: rgba(186, 171, 171, 0.6431372549);
-  border-top: 1em solid rgba(130, 117, 91, 0.631372549);
+  background-color: rgba(212, 188, 141, 0.645);
+  border-top: 1em solid rgba(161, 142, 105, 0.631372549);
   margin: 0 auto;
   width: 1400px;
   max-width: 100%;
@@ -6669,7 +6682,7 @@ img {
     flex-direction: column;
     text-align: center;
     z-index: 20;
-    background-color: #baabab;
+    background-color: #ccc1a4;
   }
   .nav ul li a {
     display: block;
