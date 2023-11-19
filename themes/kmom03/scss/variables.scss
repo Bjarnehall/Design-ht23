@@ -1,0 +1,22 @@
+//Colors
+$background-color: #bfbdaa74;
+$font-color: #592D3B;
+$font-alternative-color: #fff;
+$accent-color: #ee6c4d;
+$background-alternative-color: #e3e1cb;
+$background-alternative-color-supersolid: #e3e1cb;
+$background-alternative-color-solid: #cac6ad;
+$background-alternative-light-color: #c6c1c140;
+$border-color: #592d3ba4;
+
+//Fonts
+$header-font: 'Lato', sans-serif;
+$main-font: 'Playfair Display', serif;
+
+.title * {
+    color: $font-color;
+}
+
+.title p {
+    font-style: italic;
+}
