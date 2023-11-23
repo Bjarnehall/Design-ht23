@@ -3,9 +3,23 @@
 <body>
     {% include 'incl/nav.twig' %}
 
-    <div class="main">
+    <div class="flex-container">
+        <div class="content">
             {{ content|replace({'<iframe': '<iframe class="center-content"'})|raw }}
+        </div>
+        <nav class="sidebar">
+            <ul>
+                <li><a href="http://www.student.bth.se/~jobe23/dbwebb-kurser/design/me/portfolio/technology/css">CSS</a></li>
+                <li><a href="http://www.student.bth.se/~jobe23/dbwebb-kurser/design/me/portfolio/technology/html">HTML</a></li>
+                <li><a href="http://www.student.bth.se/~jobe23/dbwebb-kurser/design/me/portfolio/technology/javascript">JAVASCRIPT</a></li>
+                <li><a href="http://www.student.bth.se/~jobe23/dbwebb-kurser/design/me/portfolio/technology/php">PHP</a></li>
+                <li><a href="http://www.student.bth.se/~jobe23/dbwebb-kurser/design/me/portfolio/technology/python">PYTHON</a></li>
+                <li><a href="http://www.student.bth.se/~jobe23/dbwebb-kurser/design/me/portfolio/technology/git">GIT</a></li>
+                <li><a href="http://www.student.bth.se/~jobe23/dbwebb-kurser/design/me/portfolio/technology/sqlite">SQLITE</a></li>
+            </ul>
+        </nav>
     </div>
+
     {% include 'incl/footer.twig' %}
 </body>
 
