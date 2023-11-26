@@ -12,7 +12,6 @@ Template: technologies
 <h2>CSS</h2>
 <p>Cascading Style Sheets är språk för att beskriva utseende av element i ett markup language till exempel HTML. CSS är en av tre teknologier som utgör fundamentet för webben.
 <a href="http://www.student.bth.se/~jobe23/dbwebb-kurser/design/me/portfolio/technology/css">Lär dig mer om CSS!</a>
-
 </p>
 </div>
 
