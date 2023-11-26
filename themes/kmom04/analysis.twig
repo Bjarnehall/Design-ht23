@@ -1,0 +1,16 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+    <div class="main">
+        <div class="flex-container">
+            <div class="content">
+                {{ content|replace({'<iframe': '<iframe class="center-content"'})|raw }}
+            </div>
+        </div>
+    </div>
+
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

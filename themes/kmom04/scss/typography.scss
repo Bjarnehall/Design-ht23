@@ -1,0 +1,57 @@
+p {
+    font-size: 1.1em;
+    font-family: $main-font;
+    max-width: 100%;
+    margin: 1.96rem auto;
+    line-height: 1.6;
+    color: $font-color;
+    letter-spacing: 1.3px;
+    font-weight: 600;
+}
+
+h1,
+h2,
+h3 {
+    font-family: $header-font;
+}
+
+.social a {
+    text-decoration: none;
+}
+
+td,
+th,
+li,
+dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    color: $font-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.6em;
+    font-weight: bold;
+    color: $font-color;
+}
+
+.title a {
+    text-decoration: none;
+}
+
+.nav ul li a {
+    color: $font-color;
+}
+
+.nav ul li a:hover {
+    color: $font-color-hover;
+}
+
+.nav-toggle i.fa-bars {
+    color: $font-color;
+}

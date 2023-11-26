@@ -1,0 +1,33 @@
+//Colors
+$background-color: #1c1717;
+$font-color: #9c9c9c;
+$font-color-hover: #c6c9c7;
+$font-alternative-color: #fff;
+$accent-color: #c76a65;
+$background-alternative-color: #27312b;
+$background-alternative-color-supersolid: #1d1313dd;
+$background-alternative-color-solid: #1f2e24;
+$background-alternative-light-color: #1f2622;
+$border-color: #2b4033;
+$sidebar-color: #473b3b4b;
+
+//Fonts
+$header-font: 'Lato', sans-serif;
+$main-font: 'Playfair Display', serif;
+
+.title * {
+    color: $font-color;
+}
+
+.title p {
+    font-style: italic;
+}
+
+$grid-color-1: #46443dc6;
+$grid-color-2: #503d439c;
+$grid-color-3: #635d5f67;
+$grid-color-4: #47393e66;
+$grid-color-5: #2c24269c;
+$grid-color-6: #50383f4a;
+$grid-color-7: rgba(98, 69, 79, 0.603);
+$grid-color-8: rgba(80, 76, 77, 0.661);
