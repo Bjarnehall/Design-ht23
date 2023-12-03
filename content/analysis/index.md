@@ -23,7 +23,7 @@ Template: technologies
 </div>
 
 <div class="item8">
-<h2>Designprinciper</h2>
+<h2>Design principer</h2>
 <p>
 <a href="analysis/03_design_principles">Läs rapporten om design principer!</a>
 </p>

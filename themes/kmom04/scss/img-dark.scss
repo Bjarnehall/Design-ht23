@@ -1,9 +1,8 @@
 
-img {
+.img-home {
     max-width: 30%;
     display: block;
     margin: 0 0 0 auto;
-    filter: brightness(60%) contrast(90%);
 }
 
 .img-home {
@@ -21,6 +20,9 @@ img {
 
     img {
         border-radius: 10%;
+        max-width: 30%;
+        display: block;
+        margin: 0 0 0 auto;
     }
 }
 
@@ -29,4 +31,15 @@ img {
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
+}
+
+.img-analys2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+
+img {
+    filter: brightness(75%) contrast(95%);
 }
