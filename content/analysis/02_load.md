@@ -62,7 +62,7 @@ Genom att inspektera akais hemsida kan vi se att den består av totalt 270 reque
 Data från resultat
 ----------------
 
-<iframe width="760" height="250" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTM1v0wERBssvx50vs856-sZ9r5X6Hbpc4CvFMVgQ0RGWP06vl7wfr9Ukpic6gm5v7xX_9gvTas1Fo7/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe width="760" height="250" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTM1v0wERBssvx50vs856-sZ9r5X6Hbpc4CvFMVgQ0RGWP06vl7wfr9Ukpic6gm5v7xX_9gvTas1Fo7/pubhtml?widget=true&amp;headers=false" title="Inkluderat Google Spreadsheet som visar data från undersökningen"></iframe>
 
 
 

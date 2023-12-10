@@ -16,6 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 1.6em;
     gap: 10px;
 
     img {
@@ -40,6 +41,14 @@
     max-width: 50%;
 }
 
+.img-analys-design img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+}
+
 img {
     filter: brightness(75%) contrast(95%);
 }
+

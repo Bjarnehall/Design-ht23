@@ -17,6 +17,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    margin-bottom: 1.6em;
 
     img {
         border-radius: 10%;
@@ -38,4 +39,11 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 50%;
+}
+
+.img-analys-design img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
 }

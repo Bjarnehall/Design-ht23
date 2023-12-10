@@ -10,6 +10,7 @@
     grid-row: 1;
     background-color: $grid-color-1;
     padding: 1.2em;
+    text-align: center;
 }
 
 [class="item1"] {
@@ -22,7 +23,7 @@
 [class="item2"] {
     grid-column: 2 / 4;
     grid-row: 2;
-    background-color: $grid-color-3;
+    background-color: $grid-color-9;
     padding: 1.2em;
 }
 
@@ -68,9 +69,102 @@
     padding: 1.2em;
 }
 
+[class="item_title2"] {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    background-color: $grid-color-6;
+    padding: 1em;
+}
+
+[class="item1-2"] {
+    grid-column: 1;
+    grid-row: 3;
+    background-color: $grid-color-4;
+    padding: 1em;
+}
+
+[class="item2-2"] {
+    grid-column: 2 / 4;
+    grid-row: 3;
+    background-color: $grid-color-9;
+    padding: 1em;
+}
+
+[class="item4-2"] {
+    grid-column: 3;
+    grid-row: 4;
+    background-color: $grid-color-5;
+    padding: 1em;
+}
+
+[class="item3-2"] {
+    grid-column: 1 / 3;
+    grid-row: 4;
+    background-color: $grid-color-4;
+    padding: 1em;
+}
+
+[class="item5-2"] {
+    grid-column: 1;
+    grid-row: 5;
+    background-color: $grid-color-6;
+    padding: 1em;
+}
+
+[class="item6-2"] {
+    grid-column: 2 / 4;
+    grid-row: 5;
+    background-color: $grid-color-7;
+    padding: 1em;
+}
+
+[class="item7-2"] {
+    grid-column: 1 / 4;
+    grid-row: 6;
+    background-color: $grid-color-8;
+    padding: 1em;
+}
+
+[class="item7-3"] {
+    grid-column: 1 / 4;
+    grid-row: 7;
+    background-color: $grid-color-4;
+    padding: 1em;
+}
+
+[class="item7-4"] {
+    grid-column: 1 / 4;
+    grid-row: 8;
+    background-color: $grid-color-7;
+    padding: 1em;
+}
+
+.item7-2 h2 {
+    text-align: center;
+}
+
+.item7-3 h2 {
+    text-align: center;
+}
+
+.item7-4 h2 {
+    text-align: center;
+}
+
+.item-title2 h2 {
+    text-align: center;
+}
+
+.item1-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 800px) {
     .grid-container {
         grid-template-columns: 1fr;
+        max-width: 95%;
     }
 
     [class="item_title"] {
@@ -120,6 +214,75 @@
         padding: 1.2em;
     }
 
+    [class="item_title2"] {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        background-color: $grid-color-6;
+        padding: 0.8em;
+    }
+    
+    [class="item1-2"] {
+        grid-column: 1 / -1;
+        grid-row: 3;
+        background-color: $grid-color-4;
+        padding: 0.8em;
+    }
+    
+    [class="item2-2"] {
+        grid-column: 1 / -1;
+        grid-row: 4;
+        background-color: $grid-color-9;
+        padding: 0.8em;
+    }
+    
+    [class="item4-2"] {
+        grid-column: 1 / -1;
+        grid-row: 5;
+        background-color: $grid-color-5;
+        padding: 0.8em;
+    }
+    
+    [class="item3-2"] {
+        grid-column: 1 / -1;
+        grid-row: 6;
+        background-color: $grid-color-4;
+        padding: 0.8em;
+    }
+    
+    [class="item5-2"] {
+        grid-column: 1 / -1;
+        grid-row: 7;
+        background-color: $grid-color-6;
+        padding: 0.8em;
+    }
+    
+    [class="item6-2"] {
+        grid-column: 1 / -1;
+        grid-row: 8;
+        background-color: $grid-color-7;
+        padding: 0.8em;
+    }
+    
+    [class="item7-2"] {
+        grid-column: 1 / -1;
+        grid-row: 9;
+        background-color: $grid-color-8;
+        padding: 0.8em;
+    }
+    
+    [class="item7-3"] {
+        grid-column: 1 / -1;
+        grid-row: 10;
+        background-color: $grid-color-4;
+        padding: 0.8em;
+    }
+    
+    [class="item7-4"] {
+        grid-column: 1 / -1;
+        grid-row: 11;
+        background-color: $grid-color-7;
+        padding: 0.8em;
+    }
 }
 
 .grid-container a {
@@ -128,4 +291,25 @@
 
 .grid-container a:hover {
     color: $font-color-hover;
+}
+
+[class="item1-home"] {
+    grid-column: 1;
+    grid-row: 2;
+    background-color: $grid-color-5;
+    padding: 1.2em;
+}
+
+.item1-home img {
+    max-width: 100%;
+    border-radius: 0.5em;
+}
+
+[class="item_title-home"] {
+    margin-top: 0.2em;
+    grid-column: 1 / -1;
+    grid-row: 1;
+    background-color: $grid-color-1;
+    padding: 0.2em;
+    text-align: center;
 }

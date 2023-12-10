@@ -1,6 +1,6 @@
 ---
-Logo: image/catlogo2.png
-Tagline: Jonas Bjarnehall
+Logo: image/bthdesigncut3.png
+Tagline: Teknisk webbdesign v3. Blekinge tekniska högskola 
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/Bjarnehall/Design-ht23

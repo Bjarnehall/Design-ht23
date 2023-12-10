@@ -1,4 +1,4 @@
-@media (max-width: 1230px) {
+@media (max-width: 500px) {
     .title {
         padding: 1em;
         min-width: 50%;
@@ -11,17 +11,42 @@
     }
 }
 
-@media (max-width: 1230px){
+@media (max-width: 1230px) {
     .main {
         margin: 0 auto;
-        max-width: 90%;
-        padding-left: 4em;
-        padding-right: 4em;
+        max-width: 100%;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        box-sizing: border-box;
     }
 }
 
 @media (max-width: 800px) {
     .sidebar {
+        display: none;
+    }
+}
+
+@media (max-width: 720px) {
+    .header {
+        max-height: 28.33vh;
+    }
+}
+
+@media (max-width: 620px) {
+    .header {
+        max-height: 23.33vh;
+    }
+}
+
+@media (max-width: 499px) {
+    .header {
+        max-height: 13.33vh;
+    }
+}
+
+@media (max-width: 600px) {
+    .title p {
         display: none;
     }
 }

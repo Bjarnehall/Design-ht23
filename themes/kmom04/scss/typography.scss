@@ -1,5 +1,5 @@
 p {
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-family: $main-font;
     max-width: 100%;
     margin: 1.96rem auto;
@@ -42,10 +42,11 @@ h6 {
 
 .title a {
     text-decoration: none;
+    color: $font-color-two;
 }
 
 .nav ul li a {
-    color: $font-color;
+    color: $font-color-two;
 }
 
 .nav ul li a:hover {
@@ -53,5 +54,11 @@ h6 {
 }
 
 .nav-toggle .fa-bars {
-    color: $font-color;
+    color: $font-color-two;
+}
+
+@media (max-width: 400px) {
+    p {
+        font-size: 1em;
+    }
 }
